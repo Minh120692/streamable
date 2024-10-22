@@ -37,6 +37,7 @@
 
         <div>
             <button type="button" class="btn btn-primary bt-head">Sign up for free</button>
+
         </div>
 
     </div>
@@ -149,9 +150,12 @@
         <div class="form-on container-1">
             <h4>Select Videos to upload</h4>
             <p>Or drag and drop video files </p>
-            <button type="button" class="btn btn-primary btbig">Upload video for free</button>
+            <button type="button" id="btn-upload" class="btn btn-primary btbig">Upload video for free</button>
+            <input type="file" class="form-control" accept=".mp4, .avi, .mov, .mpeg" id="btn-upload-video" hidden
+                required>
             <h5>*No credit card or account required </i></h5>
-            <div class="form-sp"><span>By continuing, you accept our <a href="">Terms of Sevice</a> and acknowledge receipt our <a href=""> Privacy Policy</a> </span></div>
+            <div class="form-sp"><span>By continuing, you accept our <a href="">Terms of Sevice</a> and acknowledge
+                    receipt our <a href=""> Privacy Policy</a> </span></div>
 
         </div>
 
@@ -182,14 +186,16 @@
                 <div class="img-g"><img src="./img/upload-GIF.gif" alt=""></div>
                 <div class="ct">
                     <h1>Upload and share your videos instantly</h1>
-                    <span>The fastest video uploader on the web — don't take our word for it, try it! After your videos are uploaded, stream in 4K UHD (60fps). No home theater necessary.</span>
+                    <span>The fastest video uploader on the web — don't take our word for it, try it! After your videos
+                        are uploaded, stream in 4K UHD (60fps). No home theater necessary.</span>
                 </div>
             </div>
             <div class="content-gif2">
 
                 <div class="ct2">
                     <h1>Video editing that gets out of your way</h1>
-                    <span>With one-click resizing to landscape, square, or vertical formats, you can get back hours of time while creating videos for every platform and channel.</span>
+                    <span>With one-click resizing to landscape, square, or vertical formats, you can get back hours of
+                        time while creating videos for every platform and channel.</span>
                 </div>
                 <div class="img-g2"><img src="./img/edit-animation-compressed-v2.gif" alt=""></div>
             </div>
@@ -205,7 +211,9 @@
     <div class="body-c container">
         <div class="table">
             <div class="tab-sp">
-                <span>I love it when a web tool provides a simple service seamlessly. @streamable is a super clean #video publishing tool. Host a vid with no surrounding noise but the logo. Embed tool as well. Great place to host and share a video.</span>
+                <span>I love it when a web tool provides a simple service seamlessly. @streamable is a super clean
+                    #video publishing tool. Host a vid with no surrounding noise but the logo. Embed tool as well. Great
+                    place to host and share a video.</span>
             </div>
             <div class="ava">
                 <div class="ava-r"><img src="./img/danny.jpg" alt=""></div>
@@ -218,7 +226,8 @@
 
         </div>
         <div class="table ">
-            <div class="tab-sp"><SPan>Shoutout to @streamable for being so good at converting videos, else I would not have any awesome plays of the game to share with my server members!</SPan></div>
+            <div class="tab-sp"><SPan>Shoutout to @streamable for being so good at converting videos, else I would not
+                    have any awesome plays of the game to share with my server members!</SPan></div>
             <div class="ava">
                 <div class="ava-r"><img src="./img/uponia.png" alt=""></div>
                 <div>
@@ -300,7 +309,7 @@
     </div>
 
 
-
+    <script src="./index.js"></script>
 </body>
 
 </html>
