@@ -152,7 +152,7 @@
             <p>Or drag and drop video files </p>
             <button type="button" id="btn-upload" class="btn btn-primary btbig">Upload video for free</button>
             <input type="file" class="form-control" accept=".mp4, .avi, .mov, .mpeg" id="btn-upload-video" hidden
-                required>
+                required multiple>
             <h5>*No credit card or account required </i></h5>
             <div class="form-sp"><span>By continuing, you accept our <a href="">Terms of Sevice</a> and acknowledge
                     receipt our <a href=""> Privacy Policy</a> </span></div>

@@ -22,3 +22,6 @@
 * Mỗi câu lệnh mysql chỉ nên close một lần thôi nha.
 
 * nếu một video có nhiều tag thì hiển thị các tag đâý ra và lấy id tag nào thì sửa tag đó là xong.
+
+* Hồi cần xem lại logic của chức năng edit nha và xác định cả id và name luôn để không tạo qua nhiều
+  bảng ghi trùng tên categories trong db bảng ctg và tagname nên không cần xoá đồng bộ cũng được.

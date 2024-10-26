@@ -4,11 +4,14 @@ function main() {
       $("#btn-upload-video").click();
     });
     $("#btn-upload-video").change(function () {
-      let videoFile = $(this)[0].files[0];
+      // let videoFile = $(this)[0].files[0];
+      let totalVideos = $(this)[0].files.length;
 
-      if (videoFile) {
+      if (totalVideos > 0) {
         let formData = new FormData();
-        formData.append("video", videoFile);
+        for (let i = 0; i < totalVideos; i++) {
+          formData.append("fileVideo[]", $(this)[0].files[i]);
+        }
         $.ajax({
           url: "uploadVideoFunction.php", // File PHP xử lý cập nhật
           type: "POST",
