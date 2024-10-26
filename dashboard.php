@@ -24,7 +24,7 @@
 
 
 
-    <script src="./dashboard.js">
+    <script src="./dashboard.js?v=<?php echo time(); ?>">
 
     </script>
 </body>

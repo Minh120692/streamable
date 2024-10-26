@@ -308,8 +308,8 @@
     </div>
     </div>
 
-
-    <script src="./index.js"></script>
+    <!-- thêm ?v=... để fix lỗi file js không update khi f5 lại trang -->
+    <script src="./index.js?v=<?php echo time(); ?>"></script>
 </body>
 
 </html>

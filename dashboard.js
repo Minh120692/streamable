@@ -30,7 +30,7 @@ $(document).ready(function () {
           // Event handlers for edit and delete buttons
           $(".edit-btn").click(function () {
             let videoId = $(this).data("id");
-            window.location.href = `/editVideo/${videoId}`;
+            window.location.href = `/streamable/editVideo.php?id=${videoId}`;
             // lam trang edit va cac chuc nang nua la xong
           });
 
